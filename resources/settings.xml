@@ -13,6 +13,9 @@
 				action="RunPlugin(plugin://plugin.video.toya?mode=BUILD_M3U)"
                 label="Utwórz listę m3u"
                 option="close"/>
+		</category>
+	<category label="Sortowanie kanałów TV">			
+        <setting id="makeSort" type="bool" label="Sortowanie" default="true" />					
 	</category>
 	<!--
 	<category label="Inne">
